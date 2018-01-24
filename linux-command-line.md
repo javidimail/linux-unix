@@ -7,6 +7,7 @@ rsync -avz --include=*/ --include='*myfilenameishere*'
 ```
 
 __get rid of dead jobs that are still on qstat__
+
 2. Force kill all jobs of a user after cluster shut down:
 ```bash
 qselect -u javidi | xargs qdel -p
