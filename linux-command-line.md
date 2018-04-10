@@ -51,3 +51,8 @@ Creating journal (32768 blocks): done
 Writing superblocks and filesystem accounting information:            
 done
 ```
+mount again:
+```
+mount /dev/sdb temp-mount-folder/
+mount: /dev/sdb mounted on /home/javidi/temp-mount-folder.
+```
