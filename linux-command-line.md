@@ -12,3 +12,5 @@ __get rid of dead jobs that are still on qstat__
 ```bash
 qselect -u javidi | xargs qdel -p
 ```
+
+__How to mount a brand new flash drive/hard drive__
