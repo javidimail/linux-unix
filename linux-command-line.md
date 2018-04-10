@@ -34,3 +34,20 @@ mount: wrong fs type, bad option, bad superblock on /dev/sdb,
        In some cases useful info is found in syslog - try
        dmesg | tail or so.
 ```
+Creat a file system: 
+```bash
+> mkfs.ext4 /dev/sdb
+mke2fs 1.42.13 (17-May-2015)
+Creating filesystem with 976754646 4k blocks and 244195328 inodes
+Filesystem UUID: 6d69f90c-91ee-423e-92c3-e37cc8f90f7f
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+	4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968, 
+	102400000, 214990848, 512000000, 550731776, 644972544
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information:            
+done
+```
