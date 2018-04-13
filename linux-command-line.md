@@ -57,7 +57,7 @@ mount /dev/sdb temp-mount-folder/
 mount: /dev/sdb mounted on /home/javidi/temp-mount-folder.
 ```
 
-__How to install a cheap ($10-20) temperature sensor on a server__
+__How to install a cheap ($10-20, Temper Device USB) temperature sensor on a server__
 ```bash
 git clone https://github.com/petervojtek/usb-thermometer.git
 cd usb-thermometer/
