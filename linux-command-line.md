@@ -52,7 +52,16 @@ Writing superblocks and filesystem accounting information:
 done
 ```
 mount again:
-```
+```bash
 mount /dev/sdb temp-mount-folder/
 mount: /dev/sdb mounted on /home/javidi/temp-mount-folder.
+```
+
+__How to install a cheap ($10-20) temperature sensor on a server__
+```bash
+git clone https://github.com/petervojtek/usb-thermometer.git
+cd usb-thermometer/
+make
+sudo ./pcsensor
+2018/04/13 08:08:46 Temperature 77.68F 25.38C
 ```
