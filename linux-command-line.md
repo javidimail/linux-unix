@@ -59,6 +59,7 @@ mount: /dev/sdb mounted on /home/javidi/temp-mount-folder.
 
 __How to install a cheap ($10-20, Temper Device USB) temperature sensor on a server__
 ```bash
+sudo apt-get install libusb-dev libusb-1.0-0-dev
 git clone https://github.com/petervojtek/usb-thermometer.git
 cd usb-thermometer/
 make
